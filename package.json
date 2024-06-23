@@ -1,11 +1,14 @@
 {
   "name": "my-electron-app",
   "version": "1.0.0",
-  "main": "main.js",
+  "description": "A simple Electron app that makes HTTP requests and displays data.",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron ."
   },
-  "devDependencies": {
-    "electron": "^latest-version"
-  }
+  "dependencies": {
+    "electron": "^24.0.0",
+    "axios": "^1.0.0"
+  },
+  "devDependencies": {}
 }
